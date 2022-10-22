@@ -7,7 +7,7 @@ LABEL Description="Garradin on Alpine Linux with Docker"
 WORKDIR /var/www/
 
 # Change the version here
-ENV GARRADIN_VERSION 1.1.26
+ENV GARRADIN_VERSION 1.1.30
 
 # Install packages and remove default server definition
 RUN apk add --no-cache \
